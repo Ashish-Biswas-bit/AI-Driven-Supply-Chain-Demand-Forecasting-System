@@ -1,0 +1,501 @@
+product_id,product_name,category,sku,unit_price,quantity,total,date,channel,current_stock,safety_stock,reorder_point,lead_time_days,warehouse_location
+1028,Bookshelf,Furniture,BS-028,179.99,13,2339.87,2025-09-01,wholesale,26,8,20,21,Warehouse-A-37
+1016,Cycling Helmet,Sports,CH-016,69.99,4,279.96,2025-09-01,retail,8,15,45,10,Warehouse-C-11
+1018,Fitness Tracker,Sports,FT-018,149.99,12,1799.88,2025-09-02,wholesale,24,12,35,14,Warehouse-C-36
+1014,Tennis Racket,Sports,TR-014,149.99,18,2699.82,2025-09-03,retail,36,10,30,10,Warehouse-B-06
+1044,Dress Shirt,Apparel,DS-044,59.99,9,539.91,2025-09-03,retail,18,15,50,10,Warehouse-B-28
+1048,Winter Gloves,Apparel,WG-048,19.99,23,459.77,2025-09-03,wholesale,46,45,130,5,Warehouse-A-18
+1033,Toaster,Appliances,TO-033,49.99,14,699.86,2025-09-04,retail,28,15,50,10,Warehouse-C-26
+1008,USB Hub,Electronics,UH-008,34.99,15,524.85,2025-09-05,online,30,25,70,5,Warehouse-C-34
+1021,Office Chair,Furniture,OC-021,249.99,17,4249.83,2025-09-05,wholesale,34,8,15,21,Warehouse-A-40
+1025,Whiteboard,Furniture,WB-025,79.99,23,1839.77,2025-09-06,wholesale,46,12,40,10,Warehouse-C-29
+1036,Electric Kettle,Appliances,EK-036,39.99,5,199.95,2025-09-06,retail,10,18,60,7,Warehouse-B-11
+1006,Webcam HD,Electronics,WH-006,79.99,2,159.98,2025-09-08,online,90,15,35,7,Warehouse-C-06
+1019,Water Bottle,Sports,WB-019,14.99,12,179.88,2025-09-08,retail,24,60,150,5,Warehouse-A-09
+1032,Microwave Oven,Appliances,MO-032,129.99,23,2989.77,2025-09-08,wholesale,46,10,35,14,Warehouse-C-08
+1015,Resistance Bands,Sports,RB-015,19.99,7,139.93,2025-09-09,online,372,50,120,5,Warehouse-C-30
+1035,Air Fryer,Appliances,AF-035,149.99,1,149.99,2025-09-09,online,2,10,30,14,Warehouse-B-33
+1032,Microwave Oven,Appliances,MO-032,129.99,11,1429.89,2025-09-10,wholesale,22,10,35,14,Warehouse-B-13
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,25,4999.75,2025-09-10,wholesale,50,10,25,14,Warehouse-C-33
+1042,Running Shorts,Apparel,RS-042,34.99,30,1049.7,2025-09-12,wholesale,60,20,60,7,Warehouse-A-23
+1044,Dress Shirt,Apparel,DS-044,59.99,11,659.89,2025-09-13,online,22,15,50,10,Warehouse-A-29
+1038,Food Processor,Appliances,FP-038,199.99,16,3199.84,2025-09-13,retail,32,8,22,21,Warehouse-A-05
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,7,1399.93,2025-09-14,retail,32,10,25,14,Warehouse-A-36
+1048,Winter Gloves,Apparel,WG-048,19.99,4,79.96,2025-09-15,online,8,45,130,5,Warehouse-B-12
+1011,Running Shoes,Sports,RS-011,129.99,11,1429.89,2025-09-15,retail,22,20,60,10,Warehouse-C-26
+1035,Air Fryer,Appliances,AF-035,149.99,12,1799.88,2025-09-16,online,24,10,30,14,Warehouse-B-27
+1007,Monitor 27inch,Electronics,MN-007,299.99,12,3599.88,2025-09-17,online,24,8,20,21,Warehouse-A-14
+1037,Rice Cooker,Appliances,RC-037,69.99,18,1259.82,2025-09-17,wholesale,36,15,45,10,Warehouse-C-31
+1006,Webcam HD,Electronics,WH-006,79.99,5,399.95,2025-09-17,online,10,15,35,7,Warehouse-A-39
+1031,Coffee Maker,Appliances,CM-031,89.99,12,1079.88,2025-09-19,online,30,12,40,14,Warehouse-A-30
+1050,Socks Pack,Apparel,SP-050,14.99,11,164.89,2025-09-19,wholesale,22,70,180,5,Warehouse-C-03
+1032,Microwave Oven,Appliances,MO-032,129.99,14,1819.86,2025-09-19,online,28,10,35,14,Warehouse-B-26
+1041,Winter Jacket,Apparel,WJ-041,199.99,12,2399.88,2025-09-20,online,24,8,20,21,Warehouse-C-35
+1019,Water Bottle,Sports,WB-019,14.99,5,74.95,2025-09-20,wholesale,64,60,150,5,Warehouse-C-08
+1047,Baseball Cap,Apparel,BC-047,29.99,13,389.87,2025-09-22,online,188,30,90,5,Warehouse-B-21
+1007,Monitor 27inch,Electronics,MN-007,299.99,8,2399.92,2025-09-22,retail,16,8,20,21,Warehouse-C-21
+1022,Standing Desk,Furniture,SD-022,449.99,1,449.99,2025-09-22,online,2,5,10,30,Warehouse-C-23
+1019,Water Bottle,Sports,WB-019,14.99,3,44.97,2025-09-23,retail,6,60,150,5,Warehouse-B-26
+1038,Food Processor,Appliances,FP-038,199.99,20,3999.8,2025-09-23,wholesale,40,8,22,21,Warehouse-B-21
+1047,Baseball Cap,Apparel,BC-047,29.99,3,89.97,2025-09-25,retail,6,30,90,5,Warehouse-C-05
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,14,839.86,2025-09-26,online,28,15,40,10,Warehouse-B-07
+1002,USB-C Cable,Electronics,UC-002,12.99,24,311.76,2025-09-28,wholesale,98,25,60,5,Warehouse-A-05
+1011,Running Shoes,Sports,RS-011,129.99,17,2209.83,2025-09-28,retail,34,20,60,10,Warehouse-A-32
+1004,Laptop Stand,Electronics,LS-004,45.99,7,321.93,2025-09-28,wholesale,14,20,45,7,Warehouse-A-04
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,1,59.99,2025-09-28,online,2,15,40,10,Warehouse-A-34
+1015,Resistance Bands,Sports,RB-015,19.99,16,319.84,2025-09-29,wholesale,32,50,120,5,Warehouse-A-23
+1042,Running Shorts,Apparel,RS-042,34.99,2,69.98,2025-09-29,online,4,20,60,7,Warehouse-B-11
+1009,Wireless Charger,Electronics,WC-009,24.99,5,124.95,2025-09-30,retail,10,30,80,5,Warehouse-A-09
+1002,USB-C Cable,Electronics,UC-002,12.99,18,233.82,2025-10-01,retail,198,25,60,5,Warehouse-B-31
+1008,USB Hub,Electronics,UH-008,34.99,10,349.9,2025-10-01,online,66,25,70,5,Warehouse-A-12
+1009,Wireless Charger,Electronics,WC-009,24.99,18,449.82,2025-10-01,retail,104,30,80,5,Warehouse-B-39
+1029,Conference Table,Furniture,CT-029,599.99,29,17399.71,2025-10-01,wholesale,58,5,8,30,Warehouse-B-19
+1009,Wireless Charger,Electronics,WC-009,24.99,1,24.99,2025-10-01,online,2,30,80,5,Warehouse-C-24
+1013,Dumbbell Set,Sports,DS-013,89.99,2,179.98,2025-10-01,online,4,12,40,14,Warehouse-A-04
+1039,Slow Cooker,Appliances,SL-039,59.99,19,1139.81,2025-10-03,wholesale,38,15,50,10,Warehouse-B-26
+1047,Baseball Cap,Apparel,BC-047,29.99,14,419.86,2025-10-03,online,28,30,90,5,Warehouse-B-36
+1026,Monitor Arm,Furniture,MA-026,89.99,24,2159.76,2025-10-04,wholesale,48,15,45,10,Warehouse-B-13
+1006,Webcam HD,Electronics,WH-006,79.99,11,879.89,2025-10-04,wholesale,22,15,35,7,Warehouse-B-30
+1017,Basketball,Sports,BK-017,34.99,7,244.93,2025-10-04,wholesale,14,20,60,7,Warehouse-B-17
+1016,Cycling Helmet,Sports,CH-016,69.99,26,1819.74,2025-10-05,wholesale,70,15,45,10,Warehouse-A-30
+1002,USB-C Cable,Electronics,UC-002,12.99,9,116.91,2025-10-05,wholesale,18,25,60,5,Warehouse-C-14
+1022,Standing Desk,Furniture,SD-022,449.99,14,6299.86,2025-10-05,online,28,5,10,30,Warehouse-B-36
+1028,Bookshelf,Furniture,BS-028,179.99,11,1979.89,2025-10-05,retail,22,8,20,21,Warehouse-B-20
+1035,Air Fryer,Appliances,AF-035,149.99,11,1649.89,2025-10-06,retail,22,10,30,14,Warehouse-B-03
+1047,Baseball Cap,Apparel,BC-047,29.99,13,389.87,2025-10-06,retail,26,30,90,5,Warehouse-A-34
+1008,USB Hub,Electronics,UH-008,34.99,23,804.77,2025-10-06,wholesale,46,25,70,5,Warehouse-B-32
+1042,Running Shorts,Apparel,RS-042,34.99,20,699.8,2025-10-07,wholesale,40,20,60,7,Warehouse-B-08
+1007,Monitor 27inch,Electronics,MN-007,299.99,5,1499.95,2025-10-07,retail,10,8,20,21,Warehouse-B-12
+1013,Dumbbell Set,Sports,DS-013,89.99,18,1619.82,2025-10-08,retail,36,12,40,14,Warehouse-C-04
+1029,Conference Table,Furniture,CT-029,599.99,15,8999.85,2025-10-09,online,30,5,8,30,Warehouse-B-30
+1016,Cycling Helmet,Sports,CH-016,69.99,10,699.9,2025-10-09,wholesale,20,15,45,10,Warehouse-A-01
+1022,Standing Desk,Furniture,SD-022,449.99,19,8549.81,2025-10-10,retail,38,5,10,30,Warehouse-A-29
+1048,Winter Gloves,Apparel,WG-048,19.99,13,259.87,2025-10-10,retail,306,45,130,5,Warehouse-C-02
+1029,Conference Table,Furniture,CT-029,599.99,11,6599.89,2025-10-10,wholesale,22,5,8,30,Warehouse-A-38
+1012,Yoga Mat,Sports,YM-012,29.99,6,179.94,2025-10-11,wholesale,12,35,100,7,Warehouse-B-18
+1028,Bookshelf,Furniture,BS-028,179.99,16,2879.84,2025-10-12,wholesale,32,8,20,21,Warehouse-A-27
+1008,USB Hub,Electronics,UH-008,34.99,9,314.91,2025-10-12,retail,18,25,70,5,Warehouse-B-40
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,4,799.96,2025-10-12,online,8,10,25,14,Warehouse-B-27
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,7,174.93,2025-10-13,retail,14,40,120,5,Warehouse-B-40
+1024,Storage Cabinet,Furniture,SC-024,199.99,8,1599.92,2025-10-14,retail,16,10,25,14,Warehouse-C-07
+1014,Tennis Racket,Sports,TR-014,149.99,20,2999.8,2025-10-15,wholesale,40,10,30,10,Warehouse-A-06
+1040,Waffle Maker,Appliances,WM-040,54.99,11,604.89,2025-10-15,online,22,12,42,10,Warehouse-A-15
+1022,Standing Desk,Furniture,SD-022,449.99,6,2699.94,2025-10-15,retail,12,5,10,30,Warehouse-C-12
+1026,Monitor Arm,Furniture,MA-026,89.99,20,1799.8,2025-10-15,wholesale,40,15,45,10,Warehouse-C-08
+1038,Food Processor,Appliances,FP-038,199.99,7,1399.93,2025-10-15,wholesale,14,8,22,21,Warehouse-C-07
+1001,Wireless Mouse,Electronics,WM-001,29.99,4,119.96,2025-10-16,online,8,20,50,7,Warehouse-C-11
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,16,1439.84,2025-10-17,wholesale,32,10,30,14,Warehouse-C-28
+1028,Bookshelf,Furniture,BS-028,179.99,14,2519.86,2025-10-18,online,28,8,20,21,Warehouse-C-16
+1039,Slow Cooker,Appliances,SL-039,59.99,17,1019.83,2025-10-18,retail,34,15,50,10,Warehouse-B-22
+1040,Waffle Maker,Appliances,WM-040,54.99,17,934.83,2025-10-19,wholesale,34,12,42,10,Warehouse-C-13
+1024,Storage Cabinet,Furniture,SC-024,199.99,7,1399.93,2025-10-19,wholesale,14,10,25,14,Warehouse-B-36
+1049,Hoodie,Apparel,HD-049,69.99,29,2029.71,2025-10-20,wholesale,58,18,55,10,Warehouse-A-37
+1037,Rice Cooker,Appliances,RC-037,69.99,15,1049.85,2025-10-21,wholesale,30,15,45,10,Warehouse-B-24
+1035,Air Fryer,Appliances,AF-035,149.99,12,1799.88,2025-10-21,wholesale,24,10,30,14,Warehouse-C-39
+1021,Office Chair,Furniture,OC-021,249.99,6,1499.94,2025-10-23,online,12,8,15,21,Warehouse-A-26
+1045,Jeans,Apparel,JN-045,79.99,11,879.89,2025-10-23,online,22,12,40,14,Warehouse-A-14
+1019,Water Bottle,Sports,WB-019,14.99,19,284.81,2025-10-24,retail,464,60,150,5,Warehouse-A-02
+1006,Webcam HD,Electronics,WH-006,79.99,27,2159.73,2025-10-24,wholesale,54,15,35,7,Warehouse-A-30
+1004,Laptop Stand,Electronics,LS-004,45.99,5,229.95,2025-10-24,retail,10,20,45,7,Warehouse-A-38
+1039,Slow Cooker,Appliances,SL-039,59.99,12,719.88,2025-10-25,online,34,15,50,10,Warehouse-C-36
+1027,Drawer Unit,Furniture,DU-027,129.99,20,2599.8,2025-10-25,retail,40,10,30,14,Warehouse-A-10
+1001,Wireless Mouse,Electronics,WM-001,29.99,10,299.9,2025-10-25,retail,20,20,50,7,Warehouse-A-31
+1023,Desk Lamp,Furniture,DL-023,39.99,17,679.83,2025-10-25,wholesale,34,20,55,7,Warehouse-B-24
+1008,USB Hub,Electronics,UH-008,34.99,13,454.87,2025-10-26,online,166,25,70,5,Warehouse-B-34
+1040,Waffle Maker,Appliances,WM-040,54.99,30,1649.7,2025-10-26,wholesale,60,12,42,10,Warehouse-A-34
+1029,Conference Table,Furniture,CT-029,599.99,10,5999.9,2025-10-26,wholesale,20,5,8,30,Warehouse-A-28
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,30,5999.7,2025-10-27,wholesale,60,10,25,14,Warehouse-C-29
+1031,Coffee Maker,Appliances,CM-031,89.99,3,269.97,2025-10-27,online,6,12,40,14,Warehouse-C-38
+1025,Whiteboard,Furniture,WB-025,79.99,1,79.99,2025-10-28,online,2,12,40,10,Warehouse-C-35
+1040,Waffle Maker,Appliances,WM-040,54.99,4,219.96,2025-10-28,online,8,12,42,10,Warehouse-C-30
+1042,Running Shorts,Apparel,RS-042,34.99,10,349.9,2025-10-28,online,20,20,60,7,Warehouse-A-25
+1020,Gym Gloves,Sports,GG-020,19.99,3,59.97,2025-10-29,online,112,30,90,7,Warehouse-A-13
+1034,Blender,Appliances,BL-034,79.99,8,639.92,2025-10-29,online,16,12,40,10,Warehouse-A-19
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,12,1079.88,2025-10-30,retail,24,10,30,14,Warehouse-C-04
+1030,File Cabinet,Furniture,FC-030,149.99,10,1499.9,2025-11-01,retail,20,10,28,14,Warehouse-A-11
+1018,Fitness Tracker,Sports,FT-018,149.99,15,2249.85,2025-11-03,wholesale,30,12,35,14,Warehouse-B-33
+1019,Water Bottle,Sports,WB-019,14.99,14,209.86,2025-11-05,retail,28,60,150,5,Warehouse-C-07
+1004,Laptop Stand,Electronics,LS-004,45.99,13,597.87,2025-11-06,wholesale,26,20,45,7,Warehouse-A-01
+1034,Blender,Appliances,BL-034,79.99,9,719.91,2025-11-06,wholesale,18,12,40,10,Warehouse-A-01
+1002,USB-C Cable,Electronics,UC-002,12.99,26,337.74,2025-11-06,wholesale,52,25,60,5,Warehouse-C-30
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,5,124.95,2025-11-06,retail,10,40,120,5,Warehouse-A-19
+1046,Sports Bra,Apparel,SB-046,39.99,12,479.88,2025-11-06,online,24,25,75,7,Warehouse-A-37
+1026,Monitor Arm,Furniture,MA-026,89.99,19,1709.81,2025-11-06,wholesale,38,15,45,10,Warehouse-A-33
+1034,Blender,Appliances,BL-034,79.99,10,799.9,2025-11-07,online,20,12,40,10,Warehouse-C-06
+1012,Yoga Mat,Sports,YM-012,29.99,16,479.84,2025-11-07,retail,32,35,100,7,Warehouse-C-03
+1019,Water Bottle,Sports,WB-019,14.99,17,254.83,2025-11-07,retail,164,60,150,5,Warehouse-A-13
+1049,Hoodie,Apparel,HD-049,69.99,5,349.95,2025-11-07,wholesale,10,18,55,10,Warehouse-C-36
+1015,Resistance Bands,Sports,RB-015,19.99,4,79.96,2025-11-07,online,8,50,120,5,Warehouse-B-29
+1032,Microwave Oven,Appliances,MO-032,129.99,18,2339.82,2025-11-08,wholesale,36,10,35,14,Warehouse-C-03
+1028,Bookshelf,Furniture,BS-028,179.99,8,1439.92,2025-11-08,online,16,8,20,21,Warehouse-C-27
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,13,779.87,2025-11-08,retail,26,15,40,10,Warehouse-A-04
+1009,Wireless Charger,Electronics,WC-009,24.99,18,449.82,2025-11-09,retail,36,30,80,5,Warehouse-B-29
+1037,Rice Cooker,Appliances,RC-037,69.99,13,909.87,2025-11-09,wholesale,26,15,45,10,Warehouse-B-15
+1036,Electric Kettle,Appliances,EK-036,39.99,9,359.91,2025-11-11,online,18,18,60,7,Warehouse-A-39
+1017,Basketball,Sports,BK-017,34.99,9,314.91,2025-11-11,online,18,20,60,7,Warehouse-B-33
+1015,Resistance Bands,Sports,RB-015,19.99,18,359.82,2025-11-12,wholesale,272,50,120,5,Warehouse-B-33
+1047,Baseball Cap,Apparel,BC-047,29.99,17,509.83,2025-11-12,wholesale,88,30,90,5,Warehouse-A-29
+1021,Office Chair,Furniture,OC-021,249.99,23,5749.77,2025-11-12,wholesale,46,8,15,21,Warehouse-B-30
+1011,Running Shoes,Sports,RS-011,129.99,2,259.98,2025-11-12,online,4,20,60,10,Warehouse-B-24
+1025,Whiteboard,Furniture,WB-025,79.99,8,639.92,2025-11-13,retail,32,12,40,10,Warehouse-A-31
+1046,Sports Bra,Apparel,SB-046,39.99,15,599.85,2025-11-13,online,30,25,75,7,Warehouse-C-17
+1024,Storage Cabinet,Furniture,SC-024,199.99,24,4799.76,2025-11-13,wholesale,48,10,25,14,Warehouse-A-11
+1030,File Cabinet,Furniture,FC-030,149.99,5,749.95,2025-11-13,online,10,10,28,14,Warehouse-B-32
+1007,Monitor 27inch,Electronics,MN-007,299.99,10,2999.9,2025-11-14,online,20,8,20,21,Warehouse-B-16
+1041,Winter Jacket,Apparel,WJ-041,199.99,4,799.96,2025-11-14,retail,8,8,20,21,Warehouse-B-12
+1016,Cycling Helmet,Sports,CH-016,69.99,12,839.88,2025-11-15,retail,24,15,45,10,Warehouse-C-29
+1038,Food Processor,Appliances,FP-038,199.99,2,399.98,2025-11-15,online,4,8,22,21,Warehouse-B-15
+1050,Socks Pack,Apparel,SP-050,14.99,3,44.97,2025-11-15,retail,6,70,180,5,Warehouse-C-36
+1027,Drawer Unit,Furniture,DU-027,129.99,9,1169.91,2025-11-15,wholesale,18,10,30,14,Warehouse-A-19
+1023,Desk Lamp,Furniture,DL-023,39.99,16,639.84,2025-11-16,wholesale,32,20,55,7,Warehouse-C-29
+1039,Slow Cooker,Appliances,SL-039,59.99,2,119.98,2025-11-16,online,4,15,50,10,Warehouse-A-06
+1001,Wireless Mouse,Electronics,WM-001,29.99,6,179.94,2025-11-17,online,150,20,50,7,Warehouse-A-28
+1048,Winter Gloves,Apparel,WG-048,19.99,17,339.83,2025-11-17,wholesale,34,45,130,5,Warehouse-C-24
+1048,Winter Gloves,Apparel,WG-048,19.99,11,219.89,2025-11-18,wholesale,206,45,130,5,Warehouse-B-17
+1017,Basketball,Sports,BK-017,34.99,12,419.88,2025-11-18,online,24,20,60,7,Warehouse-C-13
+1011,Running Shoes,Sports,RS-011,129.99,3,389.97,2025-11-19,online,6,20,60,10,Warehouse-A-31
+1012,Yoga Mat,Sports,YM-012,29.99,8,239.92,2025-11-20,retail,78,35,100,7,Warehouse-A-22
+1008,USB Hub,Electronics,UH-008,34.99,9,314.91,2025-11-20,retail,18,25,70,5,Warehouse-B-40
+1044,Dress Shirt,Apparel,DS-044,59.99,15,899.85,2025-11-20,wholesale,30,15,50,10,Warehouse-A-02
+1004,Laptop Stand,Electronics,LS-004,45.99,12,551.88,2025-11-21,wholesale,114,20,45,7,Warehouse-A-37
+1001,Wireless Mouse,Electronics,WM-001,29.99,23,689.77,2025-11-21,wholesale,50,20,50,7,Warehouse-C-05
+1014,Tennis Racket,Sports,TR-014,149.99,28,4199.72,2025-11-21,wholesale,56,10,30,10,Warehouse-B-07
+1024,Storage Cabinet,Furniture,SC-024,199.99,15,2999.85,2025-11-21,wholesale,30,10,25,14,Warehouse-C-04
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,17,424.83,2025-11-22,wholesale,34,40,120,5,Warehouse-A-07
+1047,Baseball Cap,Apparel,BC-047,29.99,1,29.99,2025-11-22,online,2,30,90,5,Warehouse-A-01
+1037,Rice Cooker,Appliances,RC-037,69.99,8,559.92,2025-11-22,online,16,15,45,10,Warehouse-A-02
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,18,1079.82,2025-11-22,wholesale,36,15,40,10,Warehouse-B-24
+1018,Fitness Tracker,Sports,FT-018,149.99,18,2699.82,2025-11-23,retail,36,12,35,14,Warehouse-B-37
+1050,Socks Pack,Apparel,SP-050,14.99,11,164.89,2025-11-24,retail,252,70,180,5,Warehouse-B-26
+1013,Dumbbell Set,Sports,DS-013,89.99,13,1169.87,2025-11-24,online,26,12,40,14,Warehouse-A-03
+1006,Webcam HD,Electronics,WH-006,79.99,16,1279.84,2025-11-24,wholesale,32,15,35,7,Warehouse-B-28
+1032,Microwave Oven,Appliances,MO-032,129.99,6,779.94,2025-11-24,wholesale,12,10,35,14,Warehouse-A-08
+1018,Fitness Tracker,Sports,FT-018,149.99,3,449.97,2025-11-24,online,6,12,35,14,Warehouse-A-16
+1031,Coffee Maker,Appliances,CM-031,89.99,23,2069.77,2025-11-25,wholesale,46,12,40,14,Warehouse-B-29
+1032,Microwave Oven,Appliances,MO-032,129.99,10,1299.9,2025-11-26,wholesale,20,10,35,14,Warehouse-C-23
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,9,224.91,2025-11-26,retail,18,40,120,5,Warehouse-C-11
+1022,Standing Desk,Furniture,SD-022,449.99,3,1349.97,2025-11-26,online,6,5,10,30,Warehouse-A-34
+1034,Blender,Appliances,BL-034,79.99,18,1439.82,2025-11-27,retail,36,12,40,10,Warehouse-C-29
+1018,Fitness Tracker,Sports,FT-018,149.99,18,2699.82,2025-11-28,retail,36,12,35,14,Warehouse-A-37
+1020,Gym Gloves,Sports,GG-020,19.99,9,179.91,2025-11-28,retail,18,30,90,7,Warehouse-C-09
+1014,Tennis Racket,Sports,TR-014,149.99,14,2099.86,2025-11-28,wholesale,28,10,30,10,Warehouse-A-27
+1027,Drawer Unit,Furniture,DU-027,129.99,12,1559.88,2025-11-29,online,24,10,30,14,Warehouse-B-22
+1001,Wireless Mouse,Electronics,WM-001,29.99,12,359.88,2025-12-01,retail,24,20,50,7,Warehouse-A-14
+1029,Conference Table,Furniture,CT-029,599.99,14,8399.86,2025-12-01,retail,28,5,8,30,Warehouse-C-20
+1002,USB-C Cable,Electronics,UC-002,12.99,8,103.92,2025-12-02,retail,16,25,60,5,Warehouse-B-14
+1015,Resistance Bands,Sports,RB-015,19.99,16,319.84,2025-12-05,retail,172,50,120,5,Warehouse-A-31
+1023,Desk Lamp,Furniture,DL-023,39.99,11,439.89,2025-12-05,retail,22,20,55,7,Warehouse-A-30
+1019,Water Bottle,Sports,WB-019,14.99,5,74.95,2025-12-06,retail,10,60,150,5,Warehouse-A-26
+1030,File Cabinet,Furniture,FC-030,149.99,17,2549.83,2025-12-07,retail,34,10,28,14,Warehouse-C-22
+1046,Sports Bra,Apparel,SB-046,39.99,1,39.99,2025-12-07,online,2,25,75,7,Warehouse-B-13
+1004,Laptop Stand,Electronics,LS-004,45.99,8,367.92,2025-12-08,online,16,20,45,7,Warehouse-B-13
+1047,Baseball Cap,Apparel,BC-047,29.99,15,449.85,2025-12-08,online,30,30,90,5,Warehouse-C-15
+1033,Toaster,Appliances,TO-033,49.99,11,549.89,2025-12-09,online,22,15,50,10,Warehouse-B-09
+1023,Desk Lamp,Furniture,DL-023,39.99,9,359.91,2025-12-09,wholesale,18,20,55,7,Warehouse-C-05
+1020,Gym Gloves,Sports,GG-020,19.99,9,179.91,2025-12-10,wholesale,18,30,90,7,Warehouse-C-31
+1045,Jeans,Apparel,JN-045,79.99,12,959.88,2025-12-10,wholesale,24,12,40,14,Warehouse-C-22
+1025,Whiteboard,Furniture,WB-025,79.99,24,1919.76,2025-12-11,wholesale,48,12,40,10,Warehouse-B-03
+1035,Air Fryer,Appliances,AF-035,149.99,20,2999.8,2025-12-12,retail,40,10,30,14,Warehouse-A-37
+1031,Coffee Maker,Appliances,CM-031,89.99,7,629.93,2025-12-12,wholesale,14,12,40,14,Warehouse-B-24
+1046,Sports Bra,Apparel,SB-046,39.99,18,719.82,2025-12-13,retail,110,25,75,7,Warehouse-A-10
+1039,Slow Cooker,Appliances,SL-039,59.99,15,899.85,2025-12-13,online,30,15,50,10,Warehouse-C-03
+1026,Monitor Arm,Furniture,MA-026,89.99,6,539.94,2025-12-15,online,50,15,45,10,Warehouse-B-11
+1002,USB-C Cable,Electronics,UC-002,12.99,6,77.94,2025-12-15,online,12,25,60,5,Warehouse-B-39
+1022,Standing Desk,Furniture,SD-022,449.99,20,8999.8,2025-12-15,retail,40,5,10,30,Warehouse-A-10
+1041,Winter Jacket,Apparel,WJ-041,199.99,19,3799.81,2025-12-15,wholesale,38,8,20,21,Warehouse-A-08
+1015,Resistance Bands,Sports,RB-015,19.99,8,159.92,2025-12-17,online,72,50,120,5,Warehouse-C-14
+1001,Wireless Mouse,Electronics,WM-001,29.99,5,149.95,2025-12-18,online,10,20,50,7,Warehouse-C-15
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,27,2429.73,2025-12-18,wholesale,54,10,30,14,Warehouse-A-34
+1018,Fitness Tracker,Sports,FT-018,149.99,4,599.96,2025-12-18,online,8,12,35,14,Warehouse-C-24
+1004,Laptop Stand,Electronics,LS-004,45.99,11,505.89,2025-12-18,online,22,20,45,7,Warehouse-B-13
+1033,Toaster,Appliances,TO-033,49.99,1,49.99,2025-12-18,online,2,15,50,10,Warehouse-C-29
+1049,Hoodie,Apparel,HD-049,69.99,18,1259.82,2025-12-19,retail,36,18,55,10,Warehouse-C-39
+1002,USB-C Cable,Electronics,UC-002,12.99,8,103.92,2025-12-19,retail,16,25,60,5,Warehouse-C-19
+1039,Slow Cooker,Appliances,SL-039,59.99,15,899.85,2025-12-20,retail,30,15,50,10,Warehouse-B-10
+1025,Whiteboard,Furniture,WB-025,79.99,12,959.88,2025-12-21,wholesale,24,12,40,10,Warehouse-A-30
+1011,Running Shoes,Sports,RS-011,129.99,23,2989.77,2025-12-22,wholesale,160,20,60,10,Warehouse-B-30
+1048,Winter Gloves,Apparel,WG-048,19.99,13,259.87,2025-12-22,wholesale,26,45,130,5,Warehouse-B-02
+1032,Microwave Oven,Appliances,MO-032,129.99,7,909.93,2025-12-22,wholesale,14,10,35,14,Warehouse-A-03
+1006,Webcam HD,Electronics,WH-006,79.99,14,1119.86,2025-12-23,online,28,15,35,7,Warehouse-C-28
+1007,Monitor 27inch,Electronics,MN-007,299.99,7,2099.93,2025-12-23,online,14,8,20,21,Warehouse-B-19
+1034,Blender,Appliances,BL-034,79.99,8,639.92,2025-12-25,retail,16,12,40,10,Warehouse-C-10
+1022,Standing Desk,Furniture,SD-022,449.99,3,1349.97,2025-12-25,online,6,5,10,30,Warehouse-B-18
+1012,Yoga Mat,Sports,YM-012,29.99,19,569.81,2025-12-25,retail,38,35,100,7,Warehouse-A-34
+1014,Tennis Racket,Sports,TR-014,149.99,15,2249.85,2025-12-25,retail,30,10,30,10,Warehouse-C-40
+1012,Yoga Mat,Sports,YM-012,29.99,15,449.85,2025-12-25,retail,30,35,100,7,Warehouse-C-29
+1008,USB Hub,Electronics,UH-008,34.99,17,594.83,2025-12-26,retail,34,25,70,5,Warehouse-A-12
+1046,Sports Bra,Apparel,SB-046,39.99,12,479.88,2025-12-26,retail,24,25,75,7,Warehouse-C-35
+1039,Slow Cooker,Appliances,SL-039,59.99,25,1499.75,2025-12-26,wholesale,50,15,50,10,Warehouse-A-07
+1012,Yoga Mat,Sports,YM-012,29.99,7,209.93,2025-12-26,online,14,35,100,7,Warehouse-C-06
+1013,Dumbbell Set,Sports,DS-013,89.99,11,989.89,2025-12-26,retail,22,12,40,14,Warehouse-A-17
+1042,Running Shorts,Apparel,RS-042,34.99,15,524.85,2025-12-26,online,30,20,60,7,Warehouse-C-17
+1040,Waffle Maker,Appliances,WM-040,54.99,22,1209.78,2025-12-27,wholesale,44,12,42,10,Warehouse-B-38
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,13,1169.87,2025-12-27,wholesale,26,10,30,14,Warehouse-B-36
+1028,Bookshelf,Furniture,BS-028,179.99,17,3059.83,2025-12-27,retail,34,8,20,21,Warehouse-A-32
+1021,Office Chair,Furniture,OC-021,249.99,9,2249.91,2025-12-28,retail,18,8,15,21,Warehouse-B-07
+1011,Running Shoes,Sports,RS-011,129.99,19,2469.81,2025-12-29,wholesale,60,20,60,10,Warehouse-A-02
+1014,Tennis Racket,Sports,TR-014,149.99,3,449.97,2025-12-29,online,6,10,30,10,Warehouse-B-05
+1038,Food Processor,Appliances,FP-038,199.99,3,599.97,2025-12-29,online,6,8,22,21,Warehouse-B-13
+1041,Winter Jacket,Apparel,WJ-041,199.99,19,3799.81,2025-12-30,wholesale,38,8,20,21,Warehouse-C-04
+1021,Office Chair,Furniture,OC-021,249.99,1,249.99,2025-12-31,online,2,8,15,21,Warehouse-C-10
+1045,Jeans,Apparel,JN-045,79.99,15,1199.85,2025-12-31,wholesale,30,12,40,14,Warehouse-A-40
+1042,Running Shorts,Apparel,RS-042,34.99,6,209.94,2025-12-31,online,12,20,60,7,Warehouse-B-29
+1050,Socks Pack,Apparel,SP-050,14.99,7,104.93,2025-12-31,online,14,70,180,5,Warehouse-A-11
+1004,Laptop Stand,Electronics,LS-004,45.99,2,91.98,2026-01-01,online,4,20,45,7,Warehouse-C-22
+1041,Winter Jacket,Apparel,WJ-041,199.99,23,4599.77,2026-01-01,wholesale,46,8,20,21,Warehouse-A-14
+1033,Toaster,Appliances,TO-033,49.99,8,399.92,2026-01-02,wholesale,16,15,50,10,Warehouse-B-28
+1016,Cycling Helmet,Sports,CH-016,69.99,2,139.98,2026-01-02,online,4,15,45,10,Warehouse-B-25
+1014,Tennis Racket,Sports,TR-014,149.99,14,2099.86,2026-01-04,retail,28,10,30,10,Warehouse-A-09
+1050,Socks Pack,Apparel,SP-050,14.99,15,224.85,2026-01-04,online,30,70,180,5,Warehouse-B-03
+1011,Running Shoes,Sports,RS-011,129.99,8,1039.92,2026-01-04,online,16,20,60,10,Warehouse-B-16
+1030,File Cabinet,Furniture,FC-030,149.99,7,1049.93,2026-01-04,online,14,10,28,14,Warehouse-C-34
+1037,Rice Cooker,Appliances,RC-037,69.99,1,69.99,2026-01-04,online,2,15,45,10,Warehouse-A-22
+1024,Storage Cabinet,Furniture,SC-024,199.99,7,1399.93,2026-01-05,online,14,10,25,14,Warehouse-C-18
+1017,Basketball,Sports,BK-017,34.99,19,664.81,2026-01-05,wholesale,38,20,60,7,Warehouse-A-12
+1023,Desk Lamp,Furniture,DL-023,39.99,7,279.93,2026-01-05,online,14,20,55,7,Warehouse-C-07
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,18,1619.82,2026-01-06,retail,36,10,30,14,Warehouse-A-33
+1007,Monitor 27inch,Electronics,MN-007,299.99,13,3899.87,2026-01-06,online,26,8,20,21,Warehouse-C-23
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,19,3799.81,2026-01-07,retail,38,10,25,14,Warehouse-C-27
+1034,Blender,Appliances,BL-034,79.99,25,1999.75,2026-01-09,wholesale,50,12,40,10,Warehouse-A-09
+1001,Wireless Mouse,Electronics,WM-001,29.99,3,89.97,2026-01-10,online,6,20,50,7,Warehouse-B-27
+1030,File Cabinet,Furniture,FC-030,149.99,9,1349.91,2026-01-10,retail,18,10,28,14,Warehouse-B-38
+1021,Office Chair,Furniture,OC-021,249.99,18,4499.82,2026-01-10,retail,36,8,15,21,Warehouse-C-23
+1022,Standing Desk,Furniture,SD-022,449.99,16,7199.84,2026-01-10,wholesale,32,5,10,30,Warehouse-B-19
+1034,Blender,Appliances,BL-034,79.99,6,479.94,2026-01-11,online,12,12,40,10,Warehouse-B-24
+1026,Monitor Arm,Furniture,MA-026,89.99,11,989.89,2026-01-11,wholesale,22,15,45,10,Warehouse-B-17
+1012,Yoga Mat,Sports,YM-012,29.99,13,389.87,2026-01-12,online,178,35,100,7,Warehouse-B-12
+1046,Sports Bra,Apparel,SB-046,39.99,6,239.94,2026-01-12,wholesale,12,25,75,7,Warehouse-A-10
+1048,Winter Gloves,Apparel,WG-048,19.99,6,119.94,2026-01-12,online,12,45,130,5,Warehouse-C-20
+1024,Storage Cabinet,Furniture,SC-024,199.99,3,599.97,2026-01-13,retail,6,10,25,14,Warehouse-B-39
+1040,Waffle Maker,Appliances,WM-040,54.99,1,54.99,2026-01-13,online,2,12,42,10,Warehouse-B-06
+1002,USB-C Cable,Electronics,UC-002,12.99,18,233.82,2026-01-13,wholesale,36,25,60,5,Warehouse-B-28
+1023,Desk Lamp,Furniture,DL-023,39.99,20,799.8,2026-01-14,wholesale,40,20,55,7,Warehouse-A-40
+1004,Laptop Stand,Electronics,LS-004,45.99,15,689.85,2026-01-14,wholesale,30,20,45,7,Warehouse-C-08
+1035,Air Fryer,Appliances,AF-035,149.99,5,749.95,2026-01-15,online,10,10,30,14,Warehouse-C-26
+1045,Jeans,Apparel,JN-045,79.99,10,799.9,2026-01-15,wholesale,20,12,40,14,Warehouse-A-25
+1034,Blender,Appliances,BL-034,79.99,9,719.91,2026-01-16,retail,19,12,40,10,Warehouse-A-33
+1023,Desk Lamp,Furniture,DL-023,39.99,15,599.85,2026-01-16,retail,30,20,55,7,Warehouse-B-40
+1009,Wireless Charger,Electronics,WC-009,24.99,9,224.91,2026-01-17,wholesale,18,30,80,5,Warehouse-B-10
+1035,Air Fryer,Appliances,AF-035,149.99,23,3449.77,2026-01-18,wholesale,46,10,30,14,Warehouse-B-37
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,7,629.93,2026-01-19,online,52,10,30,14,Warehouse-B-32
+1017,Basketball,Sports,BK-017,34.99,8,279.92,2026-01-20,wholesale,16,20,60,7,Warehouse-A-20
+1004,Laptop Stand,Electronics,LS-004,45.99,14,643.86,2026-01-21,online,28,20,45,7,Warehouse-B-12
+1036,Electric Kettle,Appliances,EK-036,39.99,11,439.89,2026-01-22,retail,22,18,60,7,Warehouse-B-01
+1035,Air Fryer,Appliances,AF-035,149.99,8,1199.92,2026-01-22,wholesale,16,10,30,14,Warehouse-C-14
+1023,Desk Lamp,Furniture,DL-023,39.99,11,439.89,2026-01-22,online,22,20,55,7,Warehouse-B-06
+1015,Resistance Bands,Sports,RB-015,19.99,3,59.97,2026-01-23,online,6,50,120,5,Warehouse-A-01
+1045,Jeans,Apparel,JN-045,79.99,17,1359.83,2026-01-24,retail,34,12,40,14,Warehouse-B-25
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,12,719.88,2026-01-25,retail,24,15,40,10,Warehouse-A-35
+1040,Waffle Maker,Appliances,WM-040,54.99,4,219.96,2026-01-26,online,8,12,42,10,Warehouse-A-19
+1017,Basketball,Sports,BK-017,34.99,20,699.8,2026-01-27,retail,118,20,60,7,Warehouse-B-13
+1045,Jeans,Apparel,JN-045,79.99,3,239.97,2026-01-27,online,6,12,40,14,Warehouse-B-16
+1036,Electric Kettle,Appliances,EK-036,39.99,18,719.82,2026-01-27,retail,36,18,60,7,Warehouse-C-22
+1025,Whiteboard,Furniture,WB-025,79.99,6,479.94,2026-01-28,wholesale,12,12,40,10,Warehouse-A-02
+1050,Socks Pack,Apparel,SP-050,14.99,28,419.72,2026-01-29,wholesale,152,70,180,5,Warehouse-A-22
+1030,File Cabinet,Furniture,FC-030,149.99,4,599.96,2026-01-29,retail,8,10,28,14,Warehouse-A-09
+1007,Monitor 27inch,Electronics,MN-007,299.99,12,3599.88,2026-01-30,retail,28,8,20,21,Warehouse-A-03
+1011,Running Shoes,Sports,RS-011,129.99,5,649.95,2026-01-31,wholesale,10,20,60,10,Warehouse-C-37
+1041,Winter Jacket,Apparel,WJ-041,199.99,6,1199.94,2026-02-01,wholesale,12,8,20,21,Warehouse-B-01
+1018,Fitness Tracker,Sports,FT-018,149.99,9,1349.91,2026-02-02,retail,36,12,35,14,Warehouse-C-18
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,18,3599.82,2026-02-02,retail,36,10,25,14,Warehouse-A-25
+1032,Microwave Oven,Appliances,MO-032,129.99,7,909.93,2026-02-02,wholesale,14,10,35,14,Warehouse-B-25
+1023,Desk Lamp,Furniture,DL-023,39.99,30,1199.7,2026-02-03,wholesale,60,20,55,7,Warehouse-A-18
+1011,Running Shoes,Sports,RS-011,129.99,3,389.97,2026-02-03,online,6,20,60,10,Warehouse-B-12
+1047,Baseball Cap,Apparel,BC-047,29.99,14,419.86,2026-02-03,retail,28,30,90,5,Warehouse-B-40
+1033,Toaster,Appliances,TO-033,49.99,2,99.98,2026-02-03,online,4,15,50,10,Warehouse-A-37
+1049,Hoodie,Apparel,HD-049,69.99,14,979.86,2026-02-03,retail,28,18,55,10,Warehouse-A-09
+1050,Socks Pack,Apparel,SP-050,14.99,5,74.95,2026-02-03,wholesale,10,70,180,5,Warehouse-B-13
+1044,Dress Shirt,Apparel,DS-044,59.99,14,839.86,2026-02-04,retail,28,15,50,10,Warehouse-C-21
+1014,Tennis Racket,Sports,TR-014,149.99,2,299.98,2026-02-04,online,4,10,30,10,Warehouse-B-35
+1027,Drawer Unit,Furniture,DU-027,129.99,10,1299.9,2026-02-05,online,20,10,30,14,Warehouse-A-06
+1031,Coffee Maker,Appliances,CM-031,89.99,12,1079.88,2026-02-05,wholesale,24,12,40,14,Warehouse-C-05
+1032,Microwave Oven,Appliances,MO-032,129.99,12,1559.88,2026-02-06,wholesale,24,10,35,14,Warehouse-A-12
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,14,349.86,2026-02-06,retail,166,40,120,5,Warehouse-C-16
+1018,Fitness Tracker,Sports,FT-018,149.99,3,449.97,2026-02-06,online,6,12,35,14,Warehouse-B-03
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,6,1199.94,2026-02-06,online,12,10,25,14,Warehouse-A-25
+1009,Wireless Charger,Electronics,WC-009,24.99,10,249.9,2026-02-08,retail,204,30,80,5,Warehouse-C-32
+1049,Hoodie,Apparel,HD-049,69.99,12,839.88,2026-02-08,retail,24,18,55,10,Warehouse-A-12
+1046,Sports Bra,Apparel,SB-046,39.99,20,799.8,2026-02-08,wholesale,40,25,75,7,Warehouse-C-14
+1049,Hoodie,Apparel,HD-049,69.99,4,279.96,2026-02-08,retail,8,18,55,10,Warehouse-B-29
+1025,Whiteboard,Furniture,WB-025,79.99,9,719.91,2026-02-09,wholesale,18,12,40,10,Warehouse-B-17
+1040,Waffle Maker,Appliances,WM-040,54.99,4,219.96,2026-02-09,retail,8,12,42,10,Warehouse-A-05
+1041,Winter Jacket,Apparel,WJ-041,199.99,7,1399.93,2026-02-10,wholesale,14,8,20,21,Warehouse-B-37
+1021,Office Chair,Furniture,OC-021,249.99,27,6749.73,2026-02-10,wholesale,54,8,15,21,Warehouse-C-31
+1020,Gym Gloves,Sports,GG-020,19.99,10,199.9,2026-02-10,wholesale,20,30,90,7,Warehouse-A-34
+1029,Conference Table,Furniture,CT-029,599.99,23,13799.77,2026-02-10,wholesale,46,5,8,30,Warehouse-C-38
+1021,Office Chair,Furniture,OC-021,249.99,17,4249.83,2026-02-11,retail,34,8,15,21,Warehouse-C-04
+1026,Monitor Arm,Furniture,MA-026,89.99,8,719.92,2026-02-12,online,16,15,45,10,Warehouse-C-22
+1044,Dress Shirt,Apparel,DS-044,59.99,7,419.93,2026-02-12,online,14,15,50,10,Warehouse-C-38
+1036,Electric Kettle,Appliances,EK-036,39.99,8,319.92,2026-02-12,online,16,18,60,7,Warehouse-B-06
+1012,Yoga Mat,Sports,YM-012,29.99,19,569.81,2026-02-12,retail,38,35,100,7,Warehouse-A-28
+1025,Whiteboard,Furniture,WB-025,79.99,18,1439.82,2026-02-13,retail,36,12,40,10,Warehouse-B-28
+1017,Basketball,Sports,BK-017,34.99,8,279.92,2026-02-14,online,16,20,60,7,Warehouse-A-02
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,8,719.92,2026-02-15,retail,16,10,30,14,Warehouse-C-23
+1021,Office Chair,Furniture,OC-021,249.99,10,2499.9,2026-02-15,retail,20,8,15,21,Warehouse-A-33
+1044,Dress Shirt,Apparel,DS-044,59.99,19,1139.81,2026-02-16,wholesale,44,15,50,10,Warehouse-B-18
+1009,Wireless Charger,Electronics,WC-009,24.99,11,274.89,2026-02-16,retail,22,30,80,5,Warehouse-A-37
+1049,Hoodie,Apparel,HD-049,69.99,1,69.99,2026-02-16,online,2,18,55,10,Warehouse-C-08
+1024,Storage Cabinet,Furniture,SC-024,199.99,12,2399.88,2026-02-17,retail,24,10,25,14,Warehouse-C-13
+1028,Bookshelf,Furniture,BS-028,179.99,2,359.98,2026-02-18,online,4,8,20,21,Warehouse-C-04
+1045,Jeans,Apparel,JN-045,79.99,24,1919.76,2026-02-18,wholesale,48,12,40,14,Warehouse-C-19
+1044,Dress Shirt,Apparel,DS-044,59.99,12,719.88,2026-02-18,wholesale,24,15,50,10,Warehouse-A-13
+1012,Yoga Mat,Sports,YM-012,29.99,20,599.8,2026-02-19,wholesale,40,35,100,7,Warehouse-B-18
+1042,Running Shorts,Apparel,RS-042,34.99,1,34.99,2026-02-19,online,2,20,60,7,Warehouse-C-01
+1027,Drawer Unit,Furniture,DU-027,129.99,13,1689.87,2026-02-21,online,26,10,30,14,Warehouse-C-03
+1017,Basketball,Sports,BK-017,34.99,6,209.94,2026-02-21,online,12,20,60,7,Warehouse-C-13
+1046,Sports Bra,Apparel,SB-046,39.99,13,519.87,2026-02-21,retail,26,25,75,7,Warehouse-B-08
+1013,Dumbbell Set,Sports,DS-013,89.99,10,899.9,2026-02-21,retail,20,12,40,14,Warehouse-B-10
+1028,Bookshelf,Furniture,BS-028,179.99,7,1259.93,2026-02-22,online,14,8,20,21,Warehouse-B-17
+1009,Wireless Charger,Electronics,WC-009,24.99,15,374.85,2026-02-23,retail,30,30,80,5,Warehouse-A-30
+1049,Hoodie,Apparel,HD-049,69.99,22,1539.78,2026-02-24,wholesale,44,18,55,10,Warehouse-A-33
+1031,Coffee Maker,Appliances,CM-031,89.99,14,1259.86,2026-02-24,retail,28,12,40,14,Warehouse-C-37
+1018,Fitness Tracker,Sports,FT-018,149.99,24,3599.76,2026-02-24,wholesale,48,12,35,14,Warehouse-A-28
+1020,Gym Gloves,Sports,GG-020,19.99,5,99.95,2026-02-24,online,10,30,90,7,Warehouse-C-23
+1050,Socks Pack,Apparel,SP-050,14.99,11,164.89,2026-02-25,online,22,70,180,5,Warehouse-B-34
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,9,809.91,2026-02-25,online,18,10,30,14,Warehouse-B-21
+1031,Coffee Maker,Appliances,CM-031,89.99,27,2429.73,2026-02-26,wholesale,54,12,40,14,Warehouse-A-09
+1048,Winter Gloves,Apparel,WG-048,19.99,2,39.98,2026-02-27,online,106,45,130,5,Warehouse-A-10
+1041,Winter Jacket,Apparel,WJ-041,199.99,9,1799.91,2026-02-27,retail,18,8,20,21,Warehouse-C-03
+1036,Electric Kettle,Appliances,EK-036,39.99,30,1199.7,2026-03-01,wholesale,60,18,60,7,Warehouse-C-21
+1022,Standing Desk,Furniture,SD-022,449.99,7,3149.93,2026-03-01,online,14,5,10,30,Warehouse-C-12
+1027,Drawer Unit,Furniture,DU-027,129.99,13,1689.87,2026-03-01,retail,26,10,30,14,Warehouse-B-29
+1009,Wireless Charger,Electronics,WC-009,24.99,15,374.85,2026-03-01,online,30,30,80,5,Warehouse-C-08
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,3,74.97,2026-03-01,online,6,40,120,5,Warehouse-A-39
+1034,Blender,Appliances,BL-034,79.99,10,799.9,2026-03-02,wholesale,20,12,40,10,Warehouse-B-12
+1027,Drawer Unit,Furniture,DU-027,129.99,4,519.96,2026-03-02,retail,8,10,30,14,Warehouse-C-28
+1031,Coffee Maker,Appliances,CM-031,89.99,20,1799.8,2026-03-03,wholesale,40,12,40,14,Warehouse-A-37
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,17,424.83,2026-03-03,wholesale,34,40,120,5,Warehouse-C-38
+1038,Food Processor,Appliances,FP-038,199.99,9,1799.91,2026-03-03,wholesale,18,8,22,21,Warehouse-C-31
+1015,Resistance Bands,Sports,RB-015,19.99,3,59.97,2026-03-03,retail,6,50,120,5,Warehouse-C-34
+1029,Conference Table,Furniture,CT-029,599.99,13,7799.87,2026-03-04,online,26,5,8,30,Warehouse-B-36
+1037,Rice Cooker,Appliances,RC-037,69.99,6,419.94,2026-03-04,wholesale,28,15,45,10,Warehouse-A-35
+1049,Hoodie,Apparel,HD-049,69.99,28,1959.72,2026-03-04,wholesale,56,18,55,10,Warehouse-B-08
+1016,Cycling Helmet,Sports,CH-016,69.99,14,979.86,2026-03-04,wholesale,28,15,45,10,Warehouse-C-15
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,24,1439.76,2026-03-04,wholesale,48,15,40,10,Warehouse-C-15
+1019,Water Bottle,Sports,WB-019,14.99,6,89.94,2026-03-05,online,264,60,150,5,Warehouse-B-16
+1030,File Cabinet,Furniture,FC-030,149.99,11,1649.89,2026-03-05,retail,22,10,28,14,Warehouse-C-08
+1027,Drawer Unit,Furniture,DU-027,129.99,16,2079.84,2026-03-05,retail,32,10,30,14,Warehouse-B-38
+1016,Cycling Helmet,Sports,CH-016,69.99,12,839.88,2026-03-07,retail,24,15,45,10,Warehouse-A-06
+1038,Food Processor,Appliances,FP-038,199.99,3,599.97,2026-03-08,online,6,8,22,21,Warehouse-A-12
+1029,Conference Table,Furniture,CT-029,599.99,30,17999.7,2026-03-08,wholesale,60,5,8,30,Warehouse-C-21
+1036,Electric Kettle,Appliances,EK-036,39.99,10,399.9,2026-03-08,retail,20,18,60,7,Warehouse-A-19
+1001,Wireless Mouse,Electronics,WM-001,29.99,11,329.89,2026-03-08,wholesale,22,20,50,7,Warehouse-A-13
+1007,Monitor 27inch,Electronics,MN-007,299.99,3,899.97,2026-03-09,retail,6,8,20,21,Warehouse-C-36
+1006,Webcam HD,Electronics,WH-006,79.99,11,879.89,2026-03-09,retail,22,15,35,7,Warehouse-C-05
+1006,Webcam HD,Electronics,WH-006,79.99,2,159.98,2026-03-10,online,4,15,35,7,Warehouse-B-28
+1026,Monitor Arm,Furniture,MA-026,89.99,13,1169.87,2026-03-10,wholesale,26,15,45,10,Warehouse-A-22
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,15,374.85,2026-03-10,retail,30,40,120,5,Warehouse-B-08
+1013,Dumbbell Set,Sports,DS-013,89.99,14,1259.86,2026-03-10,online,28,12,40,14,Warehouse-B-01
+1037,Rice Cooker,Appliances,RC-037,69.99,19,1329.81,2026-03-11,retail,38,15,45,10,Warehouse-C-03
+1011,Running Shoes,Sports,RS-011,129.99,5,649.95,2026-03-11,online,10,20,60,10,Warehouse-C-10
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,4,799.96,2026-03-12,online,8,10,25,14,Warehouse-B-37
+1027,Drawer Unit,Furniture,DU-027,129.99,15,1949.85,2026-03-12,online,30,10,30,14,Warehouse-C-36
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,10,899.9,2026-03-13,online,20,10,30,14,Warehouse-B-15
+1034,Blender,Appliances,BL-034,79.99,12,959.88,2026-03-13,wholesale,24,12,40,10,Warehouse-B-35
+1039,Slow Cooker,Appliances,SL-039,59.99,17,1019.83,2026-03-13,wholesale,34,15,50,10,Warehouse-C-25
+1024,Storage Cabinet,Furniture,SC-024,199.99,3,599.97,2026-03-13,online,6,10,25,14,Warehouse-B-12
+1030,File Cabinet,Furniture,FC-030,149.99,28,4199.72,2026-03-14,wholesale,56,10,28,14,Warehouse-C-23
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,10,1999.9,2026-03-14,wholesale,20,10,25,14,Warehouse-A-06
+1016,Cycling Helmet,Sports,CH-016,69.99,16,1119.84,2026-03-14,wholesale,32,15,45,10,Warehouse-B-12
+1040,Waffle Maker,Appliances,WM-040,54.99,14,769.86,2026-03-14,retail,28,12,42,10,Warehouse-B-35
+1042,Running Shorts,Apparel,RS-042,34.99,4,139.96,2026-03-16,online,98,20,60,7,Warehouse-C-19
+1036,Electric Kettle,Appliances,EK-036,39.99,6,239.94,2026-03-16,retail,12,18,60,7,Warehouse-C-20
+1014,Tennis Racket,Sports,TR-014,149.99,9,1349.91,2026-03-17,online,18,10,30,10,Warehouse-C-36
+1033,Toaster,Appliances,TO-033,49.99,20,999.8,2026-03-17,retail,40,15,50,10,Warehouse-C-14
+1026,Monitor Arm,Furniture,MA-026,89.99,2,179.98,2026-03-18,online,4,15,45,10,Warehouse-A-04
+1002,USB-C Cable,Electronics,UC-002,12.99,8,103.92,2026-03-19,retail,16,25,60,5,Warehouse-A-31
+1021,Office Chair,Furniture,OC-021,249.99,2,499.98,2026-03-19,online,4,8,15,21,Warehouse-B-36
+1036,Electric Kettle,Appliances,EK-036,39.99,7,279.93,2026-03-19,retail,14,18,60,7,Warehouse-A-17
+1012,Yoga Mat,Sports,YM-012,29.99,9,269.91,2026-03-20,retail,278,35,100,7,Warehouse-C-05
+1049,Hoodie,Apparel,HD-049,69.99,30,2099.7,2026-03-20,wholesale,60,18,55,10,Warehouse-B-05
+1006,Webcam HD,Electronics,WH-006,79.99,2,159.98,2026-03-21,online,4,15,35,7,Warehouse-A-37
+1020,Gym Gloves,Sports,GG-020,19.99,6,119.94,2026-03-21,wholesale,12,30,90,7,Warehouse-B-31
+1013,Dumbbell Set,Sports,DS-013,89.99,1,89.99,2026-03-21,online,2,12,40,14,Warehouse-C-17
+1025,Whiteboard,Furniture,WB-025,79.99,6,479.94,2026-03-21,online,12,12,40,10,Warehouse-A-07
+1045,Jeans,Apparel,JN-045,79.99,14,1119.86,2026-03-22,wholesale,28,12,40,14,Warehouse-C-11
+1038,Food Processor,Appliances,FP-038,199.99,9,1799.91,2026-03-22,retail,18,8,22,21,Warehouse-C-05
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,11,659.89,2026-03-25,retail,22,15,40,10,Warehouse-B-39
+1040,Waffle Maker,Appliances,WM-040,54.99,9,494.91,2026-03-25,online,18,12,42,10,Warehouse-C-36
+1026,Monitor Arm,Furniture,MA-026,89.99,10,899.9,2026-03-26,wholesale,20,15,45,10,Warehouse-B-01
+1028,Bookshelf,Furniture,BS-028,179.99,4,719.96,2026-03-26,online,8,8,20,21,Warehouse-A-33
+1041,Winter Jacket,Apparel,WJ-041,199.99,5,999.95,2026-03-27,retail,10,8,20,21,Warehouse-B-33
+1044,Dress Shirt,Apparel,DS-044,59.99,5,299.95,2026-03-27,online,10,15,50,10,Warehouse-B-24
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,13,324.87,2026-03-28,retail,66,40,120,5,Warehouse-B-40
+1050,Socks Pack,Apparel,SP-050,14.99,19,284.81,2026-03-28,retail,38,70,180,5,Warehouse-A-05
+1013,Dumbbell Set,Sports,DS-013,89.99,26,2339.74,2026-03-29,wholesale,52,12,40,14,Warehouse-B-18
+1042,Running Shorts,Apparel,RS-042,34.99,8,279.92,2026-03-29,online,16,20,60,7,Warehouse-A-06
+1042,Running Shorts,Apparel,RS-042,34.99,15,524.85,2026-03-29,online,30,20,60,7,Warehouse-C-40
+1024,Storage Cabinet,Furniture,SC-024,199.99,5,999.95,2026-03-29,online,10,10,25,14,Warehouse-A-26
+1036,Electric Kettle,Appliances,EK-036,39.99,19,759.81,2026-03-30,retail,70,18,60,7,Warehouse-C-24
+1017,Basketball,Sports,BK-017,34.99,13,454.87,2026-03-30,online,26,20,60,7,Warehouse-B-09
+1038,Food Processor,Appliances,FP-038,199.99,9,1799.91,2026-03-31,online,18,8,22,21,Warehouse-A-29
+1038,Food Processor,Appliances,FP-038,199.99,8,1599.92,2026-04-01,wholesale,16,8,22,21,Warehouse-B-07
+1037,Rice Cooker,Appliances,RC-037,69.99,12,839.88,2026-04-03,online,24,15,45,10,Warehouse-B-14
+1008,USB Hub,Electronics,UH-008,34.99,18,629.82,2026-04-04,retail,36,25,70,5,Warehouse-C-38
+1031,Coffee Maker,Appliances,CM-031,89.99,7,629.93,2026-04-04,retail,14,12,40,14,Warehouse-B-40
+1029,Conference Table,Furniture,CT-029,599.99,4,2399.96,2026-04-04,online,8,5,8,30,Warehouse-B-06
+1046,Sports Bra,Apparel,SB-046,39.99,17,679.83,2026-04-04,wholesale,34,25,75,7,Warehouse-A-33
+1035,Air Fryer,Appliances,AF-035,149.99,12,1799.88,2026-04-05,retail,24,10,30,14,Warehouse-A-10
+1030,File Cabinet,Furniture,FC-030,149.99,18,2699.82,2026-04-06,retail,36,10,28,14,Warehouse-B-08
+1033,Toaster,Appliances,TO-033,49.99,27,1349.73,2026-04-06,wholesale,54,15,50,10,Warehouse-A-34
+1039,Slow Cooker,Appliances,SL-039,59.99,9,539.91,2026-04-06,online,18,15,50,10,Warehouse-A-28
+1006,Webcam HD,Electronics,WH-006,79.99,10,799.9,2026-04-06,online,20,15,35,7,Warehouse-C-26
+1007,Monitor 27inch,Electronics,MN-007,299.99,5,1499.95,2026-04-06,online,10,8,20,21,Warehouse-A-08
+1041,Winter Jacket,Apparel,WJ-041,199.99,13,2599.87,2026-04-07,online,26,8,20,21,Warehouse-A-17
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,14,839.86,2026-04-07,retail,28,15,40,10,Warehouse-C-06
+1020,Gym Gloves,Sports,GG-020,19.99,6,119.94,2026-04-08,online,212,30,90,7,Warehouse-B-17
+1033,Toaster,Appliances,TO-033,49.99,19,949.81,2026-04-09,wholesale,38,15,50,10,Warehouse-A-39
+1025,Whiteboard,Furniture,WB-025,79.99,12,959.88,2026-04-09,online,24,12,40,10,Warehouse-C-08
+1031,Coffee Maker,Appliances,CM-031,89.99,10,899.9,2026-04-09,online,20,12,40,14,Warehouse-A-31
+1001,Wireless Mouse,Electronics,WM-001,29.99,4,119.96,2026-04-10,online,8,20,50,7,Warehouse-B-01
+1026,Monitor Arm,Furniture,MA-026,89.99,13,1169.87,2026-04-10,retail,26,15,45,10,Warehouse-C-20
+1046,Sports Bra,Apparel,SB-046,39.99,16,639.84,2026-04-10,retail,32,25,75,7,Warehouse-B-24
+1016,Cycling Helmet,Sports,CH-016,69.99,1,69.99,2026-04-10,online,2,15,45,10,Warehouse-A-29
+1028,Bookshelf,Furniture,BS-028,179.99,19,3419.81,2026-04-12,retail,38,8,20,21,Warehouse-B-06
+1008,USB Hub,Electronics,UH-008,34.99,5,174.95,2026-04-12,wholesale,10,25,70,5,Warehouse-A-12
+1029,Conference Table,Furniture,CT-029,599.99,6,3599.94,2026-04-13,online,12,5,8,30,Warehouse-A-25
+1048,Winter Gloves,Apparel,WG-048,19.99,13,259.87,2026-04-13,wholesale,26,45,130,5,Warehouse-A-34
+1001,Wireless Mouse,Electronics,WM-001,29.99,15,449.85,2026-04-14,wholesale,30,20,50,7,Warehouse-B-16
+1035,Air Fryer,Appliances,AF-035,149.99,16,2399.84,2026-04-15,retail,32,10,30,14,Warehouse-A-12
+1008,USB Hub,Electronics,UH-008,34.99,7,244.93,2026-04-15,retail,14,25,70,5,Warehouse-C-20
+1039,Slow Cooker,Appliances,SL-039,59.99,13,779.87,2026-04-15,retail,26,15,50,10,Warehouse-C-16
+1032,Microwave Oven,Appliances,MO-032,129.99,15,1949.85,2026-04-16,retail,30,10,35,14,Warehouse-B-15
+1015,Resistance Bands,Sports,RB-015,19.99,14,279.86,2026-04-16,retail,28,50,120,5,Warehouse-C-37
+1004,Laptop Stand,Electronics,LS-004,45.99,7,321.93,2026-04-18,retail,14,20,45,7,Warehouse-C-36
+1027,Drawer Unit,Furniture,DU-027,129.99,6,779.94,2026-04-18,retail,12,10,30,14,Warehouse-C-07
+1016,Cycling Helmet,Sports,CH-016,69.99,17,1189.83,2026-04-19,wholesale,34,15,45,10,Warehouse-B-05
+1044,Dress Shirt,Apparel,DS-044,59.99,11,659.89,2026-04-19,online,22,15,50,10,Warehouse-B-22
+1013,Dumbbell Set,Sports,DS-013,89.99,8,719.92,2026-04-20,retail,56,12,40,14,Warehouse-A-40
+1044,Dress Shirt,Apparel,DS-044,59.99,14,839.86,2026-04-20,online,28,15,50,10,Warehouse-C-17
+1013,Dumbbell Set,Sports,DS-013,89.99,16,1439.84,2026-04-21,retail,32,12,40,14,Warehouse-C-19
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,19,1139.81,2026-04-21,retail,38,15,40,10,Warehouse-C-02
+1005,Mechanical Keyboard,Electronics,MK-005,89.99,28,2519.72,2026-04-22,wholesale,56,10,30,14,Warehouse-A-13
+1020,Gym Gloves,Sports,GG-020,19.99,9,179.91,2026-04-22,wholesale,18,30,90,7,Warehouse-B-31
+1002,USB-C Cable,Electronics,UC-002,12.99,1,12.99,2026-04-22,online,2,25,60,5,Warehouse-A-24
+1050,Socks Pack,Apparel,SP-050,14.99,3,44.97,2026-04-23,online,52,70,180,5,Warehouse-C-39
+1017,Basketball,Sports,BK-017,34.99,7,244.93,2026-04-23,retail,14,20,60,7,Warehouse-C-17
+1047,Baseball Cap,Apparel,BC-047,29.99,5,149.95,2026-04-23,online,10,30,90,5,Warehouse-B-27
+1014,Tennis Racket,Sports,TR-014,149.99,17,2549.83,2026-04-25,retail,34,10,30,10,Warehouse-C-24
+1048,Winter Gloves,Apparel,WG-048,19.99,9,179.91,2026-04-25,online,18,45,130,5,Warehouse-C-37
+1015,Resistance Bands,Sports,RB-015,19.99,14,279.86,2026-04-25,online,28,50,120,5,Warehouse-B-26
+1024,Storage Cabinet,Furniture,SC-024,199.99,11,2199.89,2026-04-25,retail,22,10,25,14,Warehouse-A-16
+1020,Gym Gloves,Sports,GG-020,19.99,7,139.93,2026-04-25,wholesale,14,30,90,7,Warehouse-A-01
+1037,Rice Cooker,Appliances,RC-037,69.99,8,559.92,2026-04-25,wholesale,16,15,45,10,Warehouse-C-01
+1009,Wireless Charger,Electronics,WC-009,24.99,11,274.89,2026-04-26,online,22,30,80,5,Warehouse-C-02
+1037,Rice Cooker,Appliances,RC-037,69.99,13,909.87,2026-04-26,retail,26,15,45,10,Warehouse-A-05
+1019,Water Bottle,Sports,WB-019,14.99,9,134.91,2026-04-27,online,364,60,150,5,Warehouse-C-17
+1047,Baseball Cap,Apparel,BC-047,29.99,18,539.82,2026-04-27,wholesale,36,30,90,5,Warehouse-C-06
+1045,Jeans,Apparel,JN-045,79.99,17,1359.83,2026-04-28,retail,34,12,40,14,Warehouse-C-30
+1022,Standing Desk,Furniture,SD-022,449.99,17,7649.83,2026-04-28,wholesale,34,5,10,30,Warehouse-A-14
+1030,File Cabinet,Furniture,FC-030,149.99,16,2399.84,2026-05-01,retail,32,10,28,14,Warehouse-A-30
+1018,Fitness Tracker,Sports,FT-018,149.99,9,1349.91,2026-05-01,retail,18,12,35,14,Warehouse-C-10
+1033,Toaster,Appliances,TO-033,49.99,8,399.92,2026-05-02,retail,56,15,50,10,Warehouse-C-08
+1010,Noise Cancelling Headphones,Electronics,NCH-010,199.99,28,5599.72,2026-05-02,wholesale,56,10,25,14,Warehouse-B-01
+1007,Monitor 27inch,Electronics,MN-007,299.99,9,2699.91,2026-05-02,retail,18,8,20,21,Warehouse-A-23
+1033,Toaster,Appliances,TO-033,49.99,16,799.84,2026-05-03,wholesale,32,15,50,10,Warehouse-B-36
+1043,Cotton T-Shirt,Apparel,CT-043,24.99,17,424.83,2026-05-04,wholesale,266,40,120,5,Warehouse-A-02
+1045,Jeans,Apparel,JN-045,79.99,6,479.94,2026-05-04,wholesale,12,12,40,14,Warehouse-B-21
+1020,Gym Gloves,Sports,GG-020,19.99,22,439.78,2026-05-04,wholesale,44,30,90,7,Warehouse-B-20
+1003,Bluetooth Speaker,Electronics,BS-003,59.99,5,299.95,2026-05-05,retail,76,15,40,10,Warehouse-C-14
+1019,Water Bottle,Sports,WB-019,14.99,15,224.85,2026-05-05,retail,30,60,150,5,Warehouse-B-02
+1023,Desk Lamp,Furniture,DL-023,39.99,17,679.83,2026-05-06,retail,106,20,55,7,Warehouse-B-01

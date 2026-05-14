@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand: #0f4c81;
+  --brand-light: #1a7fc1;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+.card {
+  @apply bg-white rounded-xl border border-gray-100 shadow-sm p-5;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-ok     { @apply bg-green-100 text-green-800; }
+.badge-warn   { @apply bg-amber-100 text-amber-800; }
+.badge-danger { @apply bg-red-100  text-red-800; }
+.badge-info   { @apply bg-blue-100 text-blue-800; }
+
+.btn-primary {
+  @apply bg-brand-700 hover:bg-brand-900 text-white font-medium px-4 py-2 rounded-lg transition-colors text-sm;
+}
+
+.btn-secondary {
+  @apply bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium px-4 py-2 rounded-lg transition-colors text-sm;
+}
+
+.input {
+  @apply w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent;
+}
+
+/* ========== SPLASH SCREEN ========== */
+.splash-screen {
+  @apply fixed inset-0 z-50 flex items-center justify-center overflow-hidden;
+  background: linear-gradient(135deg, #0a1628 0%, #0f2847 30%, #0f4c81 60%, #0a1628 100%);
+  background-size: 400% 400%;
+  animation: splashBgShift 8s ease-in-out infinite;
+}
+
+@keyframes splashBgShift {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+/* Animated grid overlay */
+.splash-grid {
+  @apply absolute inset-0 opacity-[0.04];
+  background-image:
+    linear-gradient(rgba(255,255,255,0.8) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: splashGridMove 20s linear infinite;
+}
+
+@keyframes splashGridMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(40px, 40px); }
+}
+
+/* Floating particles */
+.splash-particles {
+  @apply absolute inset-0 pointer-events-none;
+}
+
+.splash-particle {
+  @apply absolute;
+  bottom: -30px;
+  animation: splashFloatUp linear infinite;
+}
+
+@keyframes splashFloatUp {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 0; }
+  10%  { opacity: 0.3; }
+  90%  { opacity: 0.3; }
+  100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+}
+
+/* Main content wrapper */
+.splash-content {
+  @apply relative z-10 flex flex-col items-center text-center px-6;
+  max-width: 420px;
+}
+
+/* Icon wrapper with rings */
+.splash-icon-wrapper {
+  @apply relative mb-8;
+}
+
+.splash-icon {
+  @apply relative z-10 w-20 h-20 text-brand-300;
+  animation: splashIconPulse 2s ease-in-out infinite;
+}
+
+@keyframes splashIconPulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.05); }
+}
+
+.splash-ring {
+  @apply absolute inset-0 rounded-full border border-brand-400/30;
+  animation: splashRingExpand 2s ease-out infinite;
+}
+
+.splash-ring-delayed {
+  animation-delay: 1s;
+}
+
+@keyframes splashRingExpand {
+  0%   { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* Bar chart bars */
+.splash-bar {
+  fill: currentColor;
+  opacity: 0.6;
+  animation: splashBarGrow 1.5s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+.bar-1 { animation-delay: 0s; }
+.bar-2 { animation-delay: 0.2s; }
+.bar-3 { animation-delay: 0.4s; }
+.bar-4 { animation-delay: 0.6s; }
+
+@keyframes splashBarGrow {
+  0%   { transform: scaleY(0.3); }
+  100% { transform: scaleY(1); }
+}
+
+/* Trend line draw */
+.splash-trend {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: splashTrendDraw 2s ease-in-out infinite;
+}
+
+@keyframes splashTrendDraw {
+  0%   { stroke-dashoffset: 100; opacity: 0; }
+  50%  { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: -100; opacity: 0; }
+}
+
+/* Data dots */
+.splash-dot {
+  animation: splashDotPop 2s ease-in-out infinite;
+}
+
+.dot-1 { animation-delay: 0s; }
+.dot-2 { animation-delay: 0.5s; }
+.dot-3 { animation-delay: 1s; }
+.dot-4 { animation-delay: 1.5s; }
+
+@keyframes splashDotPop {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50%      { transform: scale(1.8); opacity: 1; }
+}
+
+/* Title */
+.splash-title {
+  @apply mb-6;
+}
+
+.splash-title-main {
+  @apply block text-2xl font-bold text-white tracking-tight;
+}
+
+.splash-title-sub {
+  @apply block text-sm text-brand-300/80 mt-1 font-medium tracking-wide;
+}
+
+/* Status text */
+.splash-status {
+  @apply flex items-center justify-center gap-2 mb-5 h-6;
+}
+
+.splash-status-text {
+  @apply text-sm text-brand-200/90;
+}
+
+.splash-status-dots {
+  @apply flex items-center gap-1;
+}
+
+.splash-dot-bounce {
+  @apply w-1.5 h-1.5 rounded-full bg-brand-400;
+  animation: splashDotBounce 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes splashDotBounce {
+  0%   { transform: translateY(0); opacity: 0.4; }
+  100% { transform: translateY(-6px); opacity: 1; }
+}
+
+/* Progress bar */
+.splash-progress-track {
+  @apply relative w-full h-1.5 rounded-full overflow-hidden;
+  background: rgba(255,255,255,0.1);
+}
+
+.splash-progress-fill {
+  @apply absolute inset-y-0 left-0 rounded-full;
+  background: linear-gradient(90deg, #1a7fc1, #4fc3f7, #1a7fc1);
+  background-size: 200% 100%;
+  animation: splashProgressShimmer 2s linear infinite;
+  transition: width 0.3s ease-out;
+}
+
+@keyframes splashProgressShimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.splash-progress-shimmer {
+  @apply absolute inset-y-0 left-0 right-0 rounded-full;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  animation: splashShimmerSweep 1.5s ease-in-out infinite;
+}
+
+@keyframes splashShimmerSweep {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Percentage */
+.splash-percentage {
+  @apply text-xs text-brand-300/70 mt-2 font-mono;
+}
+
+/* Tagline */
+.splash-tagline {
+  @apply text-xs text-brand-300/50 mt-8 tracking-wide;
+}
