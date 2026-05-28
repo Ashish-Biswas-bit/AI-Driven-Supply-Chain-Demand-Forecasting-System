@@ -10,24 +10,23 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./supply_chain.db")
+DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL must be set to a PostgreSQL connection URL")
 
-# Configure engine based on database type
-if "sqlite" in DATABASE_URL:
-    engine = create_engine(
-        DATABASE_URL,
-        connect_args={"check_same_thread": False}
+if DATABASE_URL.startswith("postgresql://user:password@localhost"):
+    raise RuntimeError(
+        "DATABASE_URL is still the placeholder value. "
+        "Replace it with your actual PostgreSQL connection string in backend/.env."
     )
-else:
-    # PostgreSQL / Supabase configuration
-    # Supports both local PostgreSQL and Supabase connection URLs
-    engine = create_engine(
-        DATABASE_URL,
-        pool_size=10,
-        max_overflow=20,
-        pool_pre_ping=True,
-        pool_recycle=300
-    )
+
+engine = create_engine(
+    DATABASE_URL,
+    pool_size=10,
+    max_overflow=20,
+    pool_pre_ping=True,
+    pool_recycle=300
+)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
@@ -37,6 +36,19 @@ class UserRole(str, enum.Enum):
     admin = "admin"
     manager = "manager"
     viewer = "viewer"
+
+
+class SubscriptionPlan(str, enum.Enum):
+    free_trial = "free_trial"
+    weekly = "weekly"
+    monthly = "monthly"
+    yearly = "yearly"
+
+
+class SubscriptionStatus(str, enum.Enum):
+    active = "active"
+    expired = "expired"
+    cancelled = "cancelled"
 
 
 class AlertType(str, enum.Enum):
@@ -60,6 +72,10 @@ class User(Base):
     hashed_password = Column(String(200), nullable=False)
     role = Column(Enum(UserRole), default=UserRole.viewer)
     is_active = Column(Boolean, default=True)
+    subscription_plan = Column(Enum(SubscriptionPlan), default=SubscriptionPlan.free_trial)
+    subscription_status = Column(Enum(SubscriptionStatus), default=SubscriptionStatus.active)
+    subscription_expires_at = Column(DateTime, nullable=True)
+    trial_ends_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     sales = relationship("SaleRecord", back_populates="user")
@@ -157,4 +173,5 @@ def get_db():
 
 
 def init_db():
+    """Initialize database tables using the configured PostgreSQL engine."""
     Base.metadata.create_all(bind=engine)

@@ -1,8 +1,44 @@
 import axios from "axios";
+import Router from "next/router";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 const api = axios.create({ baseURL: API_URL });
+
+// Request interceptor — attach JWT token from localStorage
+api.interceptors.request.use(
+  (config) => {
+    if (typeof window !== "undefined") {
+      try {
+        const token = localStorage.getItem("sc_access_token");
+        if (token) {
+          config.headers.Authorization = `Bearer ${token}`;
+        }
+      } catch {
+        // localStorage unavailable
+      }
+    }
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
+// Response interceptor — redirect to login on 401
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error?.response?.status === 401 && typeof window !== "undefined") {
+      // Clear expired/invalid token
+      try {
+        localStorage.removeItem("sc_access_token");
+      } catch {
+        // localStorage unavailable
+      }
+      Router.push("/login");
+    }
+    return Promise.reject(error);
+  }
+);
 
 // ── Dashboard ─────────────────────────────────────────
 export const getDashboardStats = () => api.get("/api/dashboard/stats");
@@ -48,5 +84,11 @@ export const importExploreFile = (file: File) => {
   formData.append("file", file);
   return api.post("/api/import-data", formData);
 };
+
+// ── Subscription ───────────────────────────────────────
+export const getCurrentUser = () => api.get("/api/auth/me");
+
+export const updateSubscription = (plan: string) =>
+  api.put(`/api/auth/subscription?plan=${plan}`);
 
 export default api;

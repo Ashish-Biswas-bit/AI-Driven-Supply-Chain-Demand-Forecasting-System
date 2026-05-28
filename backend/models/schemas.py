@@ -10,6 +10,19 @@ class UserRole(str, Enum):
     viewer = "viewer"
 
 
+class SubscriptionPlan(str, Enum):
+    free_trial = "free_trial"
+    weekly = "weekly"
+    monthly = "monthly"
+    yearly = "yearly"
+
+
+class SubscriptionStatus(str, Enum):
+    active = "active"
+    expired = "expired"
+    cancelled = "cancelled"
+
+
 class AlertType(str, Enum):
     stockout = "stockout"
     overstock = "overstock"
@@ -28,6 +41,7 @@ class UserCreate(BaseModel):
     email: EmailStr
     password: str
     role: UserRole = UserRole.viewer
+    subscription_plan: SubscriptionPlan = SubscriptionPlan.free_trial
 
 
 class UserOut(BaseModel):
@@ -36,6 +50,10 @@ class UserOut(BaseModel):
     email: str
     role: UserRole
     is_active: bool
+    subscription_plan: SubscriptionPlan
+    subscription_status: SubscriptionStatus
+    subscription_expires_at: Optional[datetime] = None
+    trial_ends_at: Optional[datetime] = None
     created_at: datetime
 
     class Config:

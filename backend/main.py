@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import random
 
 from models.database import init_db, SessionLocal, Product, Inventory, SaleRecord
-from routers import products, sales, forecasts, alerts, dashboard, data_import
+from routers import products, sales, forecasts, alerts, dashboard, data_import, auth
 
 
 @asynccontextmanager
@@ -124,6 +124,7 @@ app.include_router(products.router)
 app.include_router(sales.router)
 app.include_router(forecasts.router)
 app.include_router(alerts.router)
+app.include_router(auth.router)
 app.include_router(dashboard.router)
 app.include_router(data_import.router)
 
