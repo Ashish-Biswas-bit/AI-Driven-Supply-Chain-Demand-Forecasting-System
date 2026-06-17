@@ -9,6 +9,7 @@ A full-stack supply chain application for inventory monitoring, demand forecasti
 - **Sales recording** with stock deduction and monthly summaries
 - **Demand forecasting** powered by Prophet, with a regression fallback and optional AI insights
 - **Alerts** for stockout risk, reorder recommendations, and overstock conditions
+- **AI Chatbot Assistant** powered by **Ollama (Nemotron-3 Super)** to analyze uploaded datasets, answer inventory sales questions, and provide deep data insights
 - **Data import** from CSV or Excel to refresh the dataset
 - **Authentication** using JWT tokens and protected frontend routes
 - **Subscription plans** — weekly, monthly, yearly — with free trial management
@@ -16,11 +17,12 @@ A full-stack supply chain application for inventory monitoring, demand forecasti
 
 ## Tech Stack
 
-- **Frontend**: React 18, Next.js 14, Tailwind CSS, Axios
-- **Backend**: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL
-- **Data/ML**: Pandas, Prophet, Scikit-learn
-- **Auth**: JWT tokens with bcrypt password hashing
-- **Optional AI**: OpenAI GPT for forecast insights
+- **Frontend**: React 18.3.1, Next.js 14.2.3, Tailwind CSS 3.4.1, Axios 1.7.2, Recharts 2.12.7
+- **Backend**: Python 3.10+, FastAPI 0.111.0, SQLAlchemy 2.0.30, PostgreSQL (with SQLite fallback for development), Pydantic 2.7.1
+- **Data/ML**: Pandas 2.2.2, Prophet 1.1.5, Scikit-learn 1.4.2, NumPy 1.26.4
+- **Auth**: JWT tokens with bcrypt password hashing (using python-jose and passlib[bcrypt])
+- **Optional AI**: OpenAI GPT for forecast insights, Ollama (Nemotron-3 Super) for AI Chatbot Assistant
+- **Additional**: Python-dotenv for environment variables, Python-multipart for file uploads, OpenPyXL for Excel support
 
 ## Repository Structure
 
@@ -55,7 +57,7 @@ supply-chain/
 
 - Python 3.10+
 - Node.js 18+
-- PostgreSQL (local or hosted, e.g. Supabase)
+- PostgreSQL (for production) or SQLite (for local development)
 
 ### Backend Setup
 
@@ -73,13 +75,20 @@ supply-chain/
    pip install -r requirements.txt
    ```
 4. Create `backend/.env` from `.env.example` and configure the database:
+
    ```env
+   # For PostgreSQL (production):
    DATABASE_URL=postgresql://<db_user>:<db_password>@<db_host>:5432/<db_name>
+
+   # For SQLite (local development):
+   # DATABASE_URL=sqlite:///./supply_chain.db
+
    SECRET_KEY=your-secret-key
    ALGORITHM=HS256
    ACCESS_TOKEN_EXPIRE_MINUTES=60
    OPENAI_API_KEY=your-openai-api-key
    ```
+
 5. Start the backend:
    ```powershell
    uvicorn main:app --reload --port 8000
@@ -264,6 +273,8 @@ The forecasting engine (`backend/ml/forecasting.py`):
 
 ## Notes
 
-- The application expects a PostgreSQL database. For local development, SQLite is also supported.
-- For Supabase: set `DATABASE_URL` to your Supabase Pooler connection string (not the anon public key).
+- The application supports both PostgreSQL (for production) and SQLite (for local development). Set `DATABASE_URL` in `backend/.env` accordingly:
+  - PostgreSQL: `postgresql://<user>:<password>@<host>:5432/<database>`
+  - SQLite: `sqlite:///./supply_chain.db`
+- For Supabase: use the full Pooler connection string from Project Settings → Database → URI (not the anon public key).
 - The current data import process replaces all existing product, inventory, sales, forecast, and alert data.
